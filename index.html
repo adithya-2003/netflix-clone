@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="netflix">
+        <img src="logo.png">
+    </div>
+<div class="pic"></div>
+<nav>
+    <button>English</button>
+    <button>Sign In</button>
+</nav>
+<div class="let">
+<h1><b>Unlimited movies, TV shows and more</b></h1>
+<h3><b>Watch anywhere. Cancel anytime.</b></h3>
+<div class="ready">Ready to watch? Enter your email to create or restart your membership.</h3>
+<div class="email"><input type="email" name="email" placeholder="Email address">
+<button class="started">Get Started</button>
+</div>
+</div>
+<div class="container">
+    <div class="gallery">
+        <img src="en.png" style="width: 100%">
+        <div class="tea">Enjoy on your TV</div>
+        <div class="para">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</div>
+    </div>
+
+        <div class="gallery">
+            <img src="n.png" style="width: 100%;">
+            <div class="tea">Watch everywhere </div>
+            <div class="para">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</div>
+        </div>
+
+            <div class="gallery">
+                <img src="en-GB.png" style="width: 100%;" >
+                <div class="tea">Create profiles for kids</div>
+                <div class="para">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</div>
+                </div>
+          
+            
+                <div class="gallery">
+                            <img src="e.png" style="width: 100%; ">
+                            <div class="tea">Download your shows to watch offline</div>
+                            <div class="para">Save your favourites easily and always have something to watch.</div>
+                        </div>
+                        
+      <div class="fre"><b>Frequently Asked Questions</b></div>                  
+        <div class="question"> 
+      <button class="accordion">What is Netflix?</button>
+<div class="panel">
+  <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+
+    You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+</div>
+
+<button class="accordion">How much does Netflix cost?</button>
+<div class="panel">
+  <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</p>
+</div>
+
+<button class="accordion">Where can i watch?</button>
+<div class="panel">
+  <p> Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+
+    You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+</div>
+
+<button class="accordion">How do I cancel?</button>
+<div class="panel">
+  <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+</div>
+
+
+<button class="accordion">What can I watch on Netflix?</button>
+<div class="panel">
+  <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+</div>
+
+<button class="accordion">What can I watch on Netflix?</button>
+<div class="panel">
+  <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+</div>
+
+<button class="accordion">Is Netflix good for kids?</button>
+<div class="panel">
+  <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+
+    Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+</div>
+ </div>
+
+ <div class="membership">Ready to watch? Enter your email to create or restart your membership.</div>
+<div class="emailthree">
+    <div class="email"><input type="email" name="email" placeholder="Email address">
+       <div class="we"> <button class="started">Get Started</button></div>
+</div>
+
+    <div class="num">Questions? Call 000-800-919-1694</div>
+
+
+    <div class="god">
+    <div class="row">
+        <div class="col">
+            <a href="#">FAQ</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">privacy</a>
+            <a href="#">Speed Test</a>
+        </div>
+        <div class="col">
+            <a href="#">Help Center</a>
+            <a href="#">Jobs</a>
+            <a href="#">Cookies Preferences</a>
+            <a href="#">Legal Notices</a>
+        </div>
+
+        <div class="col">
+            <a href="#">Account</a>
+            <a href="#">Ways to watch</a>
+            <a href="#">Corporate Information</a>
+            <a href="#">Only on netflix</a>
+        </div>
+        <div class="col">
+            <a href="#">Media Centre</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+    </body>
+</html>    

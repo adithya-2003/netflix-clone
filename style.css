@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: rgb(2, 2, 29);
+}
+
+.pic {
+    width: 100%;
+    height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(header-image.png);
+   background-size: cover;
+   background-position: center;
+}
+.netflix img{
+    position: absolute;
+    width: 9%;
+    margin: 1em 1em;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    position: relative;
+   margin: -43em 1em;
+}
+nav button{
+    border: 0;
+    padding: 0.5em 2em;
+    margin: 0em 1em;
+    font-size: 15px;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+}
+h1{
+    margin: -8.5em 0.5em;
+    font-size:65px;
+    color: rgb(255, 240, 246);
+}
+h3{
+    color:rgb(255, 255, 255);
+    position: relative;
+    margin:19em 1.5em ;
+    font-size: 30px;
+}
+.ready{
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 25px;
+    margin: -21em 2em;
+}
+
+.let{
+    margin:55em 4.5em;
+}
+input[type=email]{
+    padding: 1em 7em;
+    font-size: 15px;
+    color: grey;
+    background: transparent;
+    border: 1;
+ border-color: grey;
+ border-radius: 5px;
+ margin:1em 0em;
+}
+.started{
+    padding: 0.5em 1.5em;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 650px 5px;
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+  }
+  .gallery{
+    background-color: aqua;
+    background: linear-gradient(120deg, rgb(22, 4, 89) 0%, rgb(3, 15, 59) 35%, rgb(54, 2, 7) 100%);
+    margin: 10px;
+    float: left;
+    width: 630px;
+    height: 500px;    
+    transition: 1s;
+    border-radius: 9px;
+}
+  .tea {
+    position: absolute;
+    margin: 1em 4em;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+  }
+  .gallery img {
+    margin:-1em 0em;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+  .para{
+    color: white;
+    margin:4em 5em; 
+  }
+  .fre{
+    color: white;
+  position: relative;
+  margin:2em 0em;
+  font-size: 50px;
+  }
+
+  .accordion {
+    background-color: rgba(19, 33, 68, 1);
+    margin: 0.3em 0em;
+    color: #efe6e6;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  p{
+      background-color: rgba(19, 33, 68, 1);
+      color: white;
+  }
+  .active, .accordion:hover {
+    background-color: rgb(26, 50, 112);
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .question{
+    margin: -5em 0em;
+  }
+  .membership{
+    display: flex;
+    justify-content: left;
+    color:white;
+    margin:6em;
+    margin-left: -30em;
+    font-size: 20px;
+}
+.emailthree{
+    margin: -5.1em; ;
+    margin-left: -1em;
+}
+.num
+{
+    color: white;
+    margin: 6em 0em;
+}
+.col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.col a{
+    display: block;
+    text-decoration: none;
+    color: #fcf3f3;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 0em 8em;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.god{
+    margin: 0em 0.5em;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .netflix img{
+        width: 20%;
+    }
+    .pic{
+        margin: 0em -1em;
+        width: 400px;
+       
+    }
+    nav{
+       display: flex;
+       justify-content: right;
+    }
+    h1{
+        font-size: 30px;
+        margin: -28em -2em;
+    }
+    h3{
+        margin: 57em -4em;
+        font-size: 15px;
+    }
+    .ready{
+        margin:-82em -6em;
+        font-size: 10px;
+    }
+    nav{
+      
+       margin: -41em 3em;
+       
+    }
+    nav button{
+        padding: 0.5em 0.5em;
+
+    }
+    input[type=email]{
+        padding: 1em 3em; 
+    }
+    .container{
+        margin:55em -23em;
+    }
+    .fre{
+       font-size: 30px;
+       margin: 3em ;
+       margin-left: 0.5em;
+    }
+    
+        
+    .accordion {
+       margin: 0.3em 20em;
+        width: 35%;
+     
+      }
+      .gallery{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+        height: 300px; 
+        width: 640px;   
+      } 
+      
+       .gallery img{
+        margin:0em 6em;
+       }
+   
+       .tea {
+        position: absolute;
+        margin: 11em 7em;
+        font-size: 18px;
+       
+      }
+      .para{
+      font-size: 10px;
+        margin:25em -22em; 
+      
+      }
+      p{
+        width: 300px;
+        margin: 0em 20em;
+      }
+     .membership{
+        margin:9em;
+        margin-left: 3em;
+        font-size: 12px;
+     }
+    
+    .num{
+        margin: -4em 23em;
+    }
+}
